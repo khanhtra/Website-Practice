@@ -41,9 +41,9 @@ namespace Calculator
            
 
             add = first + second;
-            sub = Convert.ToDouble(first) - Convert.ToDouble(second);
-            mul = Convert.ToDouble(first) * Convert.ToDouble(second);
-            div = Convert.ToDouble(first) / Convert.ToDouble(second);
+            sub = first - second;
+            mul = first * second;
+            div = first / second;
 
 
             switch (operation)
